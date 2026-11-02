@@ -14,7 +14,7 @@ public class UserInfoExample {
     }
 
     public static void main(String[] args) throws Exception {
-        String query = "query=" + enc("https://www.instagram.com/k.mbappe");
+        String query = "query=" + enc("https://www.instagram.com/example-user/");
 
         HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://api.piloterr.com/v2/instagram/user/info?" + query))

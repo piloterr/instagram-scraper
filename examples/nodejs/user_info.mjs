@@ -2,7 +2,7 @@
 // Usage: PILOTERR_API_KEY=your-key node user_info.mjs
 
 const params = new URLSearchParams({
-  "query": "https://www.instagram.com/k.mbappe",
+  "query": "https://www.instagram.com/example-user/",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/instagram/user/info?${params}`, {

@@ -5,4 +5,4 @@ set -euo pipefail
 
 curl -sS -G "https://api.piloterr.com/v2/instagram/user/info" \
   -H "x-api-key: ${PILOTERR_API_KEY}" \
-  --data-urlencode query=https://www.instagram.com/k.mbappe
+  --data-urlencode query=https://www.instagram.com/example-user/

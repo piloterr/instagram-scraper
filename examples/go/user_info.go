@@ -15,7 +15,7 @@ import (
 
 func main() {
 	params := url.Values{}
-	params.Set("query", "https://www.instagram.com/k.mbappe")
+	params.Set("query", "https://www.instagram.com/example-user/")
 
 	req, _ := http.NewRequest("GET", "https://api.piloterr.com/v2/instagram/user/info?"+params.Encode(), nil)
 	req.Header.Set("x-api-key", os.Getenv("PILOTERR_API_KEY"))

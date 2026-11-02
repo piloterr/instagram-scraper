@@ -3,7 +3,7 @@
 // Usage: PILOTERR_API_KEY=your-key php user_info.php
 
 $params = http_build_query([
-    'query' => 'https://www.instagram.com/k.mbappe',
+    'query' => 'https://www.instagram.com/example-user/',
 ]);
 
 $ch = curl_init('https://api.piloterr.com/v2/instagram/user/info?' . $params);
